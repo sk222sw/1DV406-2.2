@@ -1,0 +1,72 @@
+﻿body {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.05);
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#content {
+    /*width: 700px;*/
+}
+
+#layoutTemplate, #formViewTemplate {
+    background: white;
+    margin-top: 40px;
+    width: 650px;
+    margin: 40px auto;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#formViewTemplate div, #formViewTemplate div label {
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+label {
+    font-weight:bold;
+}
+
+#firstName, #lastName {
+    width: 150px;
+}
+
+#email {
+    width: 200px;
+}
+
+#dataPager, #editButtons {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#links {
+    width: 200px;
+    margin: 0 auto;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.09);
+}
+
+table tr {
+    border: none;
+}
+
+#flashMessages {
+    text-align: center;
+}
+
+.success {
+    color: green;
+}
+
+#ValidationSummary1 {
+    color: red;
+    list-style-type: none;
+}
